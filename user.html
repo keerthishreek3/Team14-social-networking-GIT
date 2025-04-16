@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>User Profiles Directory</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 40px;
+    }
+    .user-directory {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .user-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+    .user-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .user-card h3 {
+      margin: 10px 0 5px;
+    }
+    .user-card p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>User Profiles Directory</h1>
+
+  <div class="user-directory">
+    
+    <div class="user-card">
+      <img src="avatars/alice.jpg" alt="Alice">
+      <h3>Alice Johnson</h3>
+      <p>Frontend Developer with a passion for clean UI and React.</p>
+    </div>
+    
+    <div class="user-card">
+      <img src="avatars/bob.jpg" alt="Bob">
+      <h3>Bob Smith</h3>
+      <p>Backend Engineer who loves Python, APIs, and databases.</p>
+    </div>
+    
+    <div class="user-card">
+      <img src="avatars/clara.jpg" alt="Clara">
+      <h3>Clara Lee</h3>
+      <p>Product Designer focused on user experience and accessibility.</p>
+    </div>
+
+    <!-- Add more users here -->
+
+  </div>
+
+</body>
+</html>
+
