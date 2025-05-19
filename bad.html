@@ -1,27 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Profile Directory</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="profile-directory">
-    <div class="profile-card">
-      <img src="https://www.codekit.in/image/user.png" alt="User Avatar" class="avatar">
-      <div class="profile-info">
-        <h2>Jane Doe</h2>
-        <p class="role">Software Engineer</p>
-        <p class="location">San Francisco, CA</p>
-        <div class="social-links">
-          <a href="#" class="social-icon">🔗</a>
-          <a href="#" class="social-icon">📧</a>
-        </div>
-      </div>
-    </div>
-    <!-- Repeat .profile-card for more profiles -->
-  </div>
-</body>
-</html>
+body, html {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f4f4f4;
+}
+
+.chat-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: scroll;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#user-input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
 
